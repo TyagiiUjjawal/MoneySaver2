@@ -134,7 +134,8 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
-      const socket = io("https://money-saver2.vercel.app/");
+      const socket = io();
+
       // Handle form submission
       document.getElementById("timeForm").addEventListener("submit", (e) => {
         e.preventDefault();
